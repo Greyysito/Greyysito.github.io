@@ -1,8 +1,11 @@
 
+
 #musica {
-    align-items: center;
-    position:relative;
-    margin-left: 245px;
+    position:absolute;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /* Fondo general rosado */
