@@ -1,12 +1,29 @@
 
+.mensaje {
+    max-width: 800px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    text-align: center;
+    text-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  
+  .mensaje h1 {
+    font-size: 2rem;
+    color: #c71585;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.15)
+  }
 
 #musica {
-    position:absolute;
     position: absolute;
-    top: 10%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 
 /* Fondo general rosado */
 body {
@@ -18,7 +35,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  margin-top: 100px;
+  margin-top: 350px;
   margin-bottom: 100px;
 }
 
@@ -94,3 +111,16 @@ body {
     box-sizing: border-box;
     border-radius: 10%;
 }
+
+#mensajefinal {
+  max-width: 250px;
+  text-align: center;
+  position: relative;
+  left: 160%;
+  margin: 0;
+  text-align: center;          /* lo mueve al centro horizontal */
+  transform: translateX(-50%); /* lo centra exactamente */
+  font-size: 1.2rem;
+  color: #333;
+  text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+  }
